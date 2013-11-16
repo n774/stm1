@@ -16,4 +16,4 @@ deploy:
     secure: fnURTIai3TEd78JJNCJVSaLHwOAYWRgwB+JTWXe4V9XyGwOyn9HPl+3RA/G/yKF4vVhca/3d4jtbXTYPwCWv+8ixYxgIVvjT08dYzutSce2C+ci3PBcrBBtXrccGtCbWa71Oe7S1umEj4UIY7ff/1ByFFAWiCuYVgJ+3chsPTj8=
   app: stm1
   on:
-    repo: n774/students
+    repo: n774/stm1
