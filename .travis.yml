@@ -11,10 +11,5 @@ script:
 env:
   global:
   - secure: Ch6JzqQoZs1hzWhxJ/VYYQuIovxsxISFu4/uCoQlplqhWWJ50epP/KyaNKjHyTIAmFfX2gGYF4tCw70fSII1Mvl/lp5aR46JdC1RC79H1n9usJv8GyKWtgcCBSV/cxAeo+XPfKGEgR07loND7AY0u5Mj+ToKwO0zzNzgqvknsTI=
-deploy:
-  provider: heroku
-  api_key:
-    secure: fnURTIai3TEd78JJNCJVSaLHwOAYWRgwB+JTWXe4V9XyGwOyn9HPl+3RA/G/yKF4vVhca/3d4jtbXTYPwCWv+8ixYxgIVvjT08dYzutSce2C+ci3PBcrBBtXrccGtCbWa71Oe7S1umEj4UIY7ff/1ByFFAWiCuYVgJ+3chsPTj8=
-  app: stm1
-  on:
-    repo: n774/stm1
+after_success:
+  - ./heroku.sh
